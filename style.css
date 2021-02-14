@@ -1,0 +1,62 @@
+.card {
+  margin: auto;
+  width: 100rem;
+  font-size: 20px;
+  border: 10px solid gold;
+}
+
+.title-bar-title {
+  font-style: italic;
+  color: blue;
+  /* background-image: url("/image/logo.jpg"); */
+}
+
+body {
+  background-image: url("./image/pokecards.jpg");
+}
+
+h1 {
+  font-family: "Ranchers";
+  border-style: solid;
+  background-color: black;
+  color: yellow;
+  margin: auto;
+  text-align: center;
+  padding: 25px;
+}
+
+.top-bar {
+  background-image: url("./image/pokeBall.png");
+  background-size: contain;
+  font-size: large;
+  font-style: bold red;
+}
+
+.card-container {
+  border: 5px solid blue;
+  font-style: oblique;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#name {
+  font-family: "Ranchers", cursive;
+  background: -webkit-linear-gradient(yellow, blue);
+  color: orange;
+}
+
+.pokemoncontainer {
+  padding: 10px;
+}
+
+.pokemonName {
+  /* margin-left: 10px; */
+  padding: 10px;
+}
+
+h4 {
+  text-align: center;
+}
+
+#myImg {
+  width: 100%;
+}

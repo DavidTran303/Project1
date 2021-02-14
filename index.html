@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <!-- Foundation CSS Styling -->
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+        integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+        <!-- my CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+</head>
+
+
+
+<!-- Nav Bar -->
+<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+    <div class="title-bar-title">Welcome To Pokemon Card Data Generator</div>
+</div>
+
+<body>
+
+<h1>Pokemon Card</h1>
+<div class="top-bar" id="">
+    <div class="top-bar-left">
+            <div class="menu-text"></div>     
+    </div>
+    
+    <div class="top-bar-right">
+        <ul class="menu">
+            <!-- use input jquery to grab this value  -->
+            <li><input type="search"  id="lookUp" placeholder="Pokemon's Name"></li>
+
+            <li><button id="myBtn" onclick="getAllData()" class="button">Search</button></li>
+        </ul>
+    </div>
+</div>
+<br>
+<div class ="search-poke"></div>
+
+<!--Pokemon cards -->
+<div class="card" id="pokemonCard" style="width: 300px; display:none">
+    <img src="" id="myImg">
+    <div class="card-container">
+        <h4 id="name" class="pokemonName"></h4> 
+        <div class="pokemoncontainer">
+            <li id="pokeType"></li>
+            <li id="pokemon-id"></li>
+            <li id="abilities-1"></li>
+            <li id="abilities-2"></li>
+            <!-- <div id="abilities-2"></div> -->
+            <br>
+            <h4 id="supermoves">Super Moves</h4>
+                <li id ="move-1"></li>    
+                <li id ="move-2"></li>    
+                <li id ="move-3"></li>
+                <li id ="move-4"></li>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<footer>
+    <!-- <h3>Created by: David</h3> -->
+</footer>
+</body>
+<!-- jQuery CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- google ajax -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- linking javascript -->
+<script src="./script.js"></script>
+</html>
